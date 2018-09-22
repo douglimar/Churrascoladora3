@@ -1,0 +1,712 @@
+{
+  "project_info": {
+    "project_number": "90221104273",
+    "firebase_url": "https://admob-app-id-7768880404.firebaseio.com",
+    "project_id": "admob-app-id-7768880404",
+    "storage_bucket": "admob-app-id-7768880404.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90221104273:android:9e139df492bb357b",
+        "android_client_info": {
+          "package_name": "br.com.ddmsoftware.churrascoladora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90221104273-g83jhkrvfr4kt05sr1n2rhnvapnr9n70.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.ddmsoftware.churrascoladora",
+            "certificate_hash": "1bb4e389e72ff1f11c084a0b8286031090b18aac"
+          }
+        },
+        {
+          "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-1098336821710456~6667047606"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90221104273:android:7f67143045cca314",
+        "android_client_info": {
+          "package_name": "br.com.ddmsoftware.mathtablesgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-1098336821710456~8060121601"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90221104273:android:c247eeecf2e9d62d",
+        "android_client_info": {
+          "package_name": "br.com.ddmsoftware.metromaps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90221104273-de5dsdi420un8r22h2ibl5s19lk2t2jh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.ddmsoftware.metromaps",
+            "certificate_hash": "1bb4e389e72ff1f11c084a0b8286031090b18aac"
+          }
+        },
+        {
+          "client_id": "90221104273-1p59jjd2b0at8gpdjrptin0q29lubi2o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.ddmsoftware.metromaps",
+            "certificate_hash": "7d3ddf6e5d8484e9a3fe7e4888cb3f6b383dc925"
+          }
+        },
+        {
+          "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-1098336821710456~6894359536"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90221104273:android:0c2c58dc994c833c",
+        "android_client_info": {
+          "package_name": "br.com.ddmsoftware.nodegravata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90221104273-rsd9cooa400p0mf1sr1qilkm9tenaqck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.ddmsoftware.nodegravata",
+            "certificate_hash": "7d3ddf6e5d8484e9a3fe7e4888cb3f6b383dc925"
+          }
+        },
+        {
+          "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-1098336821710456~9385214401"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90221104273:android:31134c658bc4f1ae",
+        "android_client_info": {
+          "package_name": "br.com.ddmsoftware.periodictable"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90221104273-5ta5sed9273uintu001no43fd7gtlbhn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.ddmsoftware.periodictable",
+            "certificate_hash": "7d3ddf6e5d8484e9a3fe7e4888cb3f6b383dc925"
+          }
+        },
+        {
+          "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-1098336821710456~2241565205"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90221104273:android:575567f7b5c6ab19",
+        "android_client_info": {
+          "package_name": "br.com.ddmsoftware.sorocabaguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90221104273-b8kf9lrh6bqv862s48kesck9shi9np8u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.ddmsoftware.sorocabaguide",
+            "certificate_hash": "1bb4e389e72ff1f11c084a0b8286031090b18aac"
+          }
+        },
+        {
+          "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90221104273:android:6faa86dc6c41f93b",
+        "android_client_info": {
+          "package_name": "br.com.douglimar.gasoretanol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90221104273-u6srjeqdbea2mqijloo9vjqul99gjjpv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.douglimar.gasoretanol",
+            "certificate_hash": "1bb4e389e72ff1f11c084a0b8286031090b18aac"
+          }
+        },
+        {
+          "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-1098336821710456~4815414005"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90221104273:android:87b3432063aba334",
+        "android_client_info": {
+          "package_name": "br.com.douglimar.surpresinha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90221104273-1n8clm5dsf9ns1v8sllbv4m6f6m67i88.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.douglimar.surpresinha",
+            "certificate_hash": "1bb4e389e72ff1f11c084a0b8286031090b18aac"
+          }
+        },
+        {
+          "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-1098336821710456~3199080001"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90221104273:android:bdbbf7388a24f40f",
+        "android_client_info": {
+          "package_name": "br.com.douglimar.surpresinha_duplasena"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90221104273-pdfo3b88ih4t0ebjm1ri8haehshh4q3g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.douglimar.surpresinha_duplasena",
+            "certificate_hash": "1bb4e389e72ff1f11c084a0b8286031090b18aac"
+          }
+        },
+        {
+          "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90221104273:android:45fcf9589438ea65",
+        "android_client_info": {
+          "package_name": "br.com.douglimar.surpresinha_lotofacil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90221104273-ikcgreshrd7k77oqq156lmaca59p5ecl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.douglimar.surpresinha_lotofacil",
+            "certificate_hash": "1bb4e389e72ff1f11c084a0b8286031090b18aac"
+          }
+        },
+        {
+          "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-1098336821710456~3338680808"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90221104273:android:21b0fede4dbf1c06",
+        "android_client_info": {
+          "package_name": "br.com.douglimar.surpresinha_lotomania"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90221104273-m1calb2j5acojl1tajbjsf6mq5rbck06.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.douglimar.surpresinha_lotomania",
+            "certificate_hash": "1bb4e389e72ff1f11c084a0b8286031090b18aac"
+          }
+        },
+        {
+          "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-1098336821710456~6292147204"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90221104273:android:f3aa6315f5e24aab",
+        "android_client_info": {
+          "package_name": "br.com.douglimar.surpresinha_megasena"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90221104273-5v84nkbq6eof9uk2foo7p9jqqgvhicdo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.douglimar.surpresinha_megasena",
+            "certificate_hash": "1bb4e389e72ff1f11c084a0b8286031090b18aac"
+          }
+        },
+        {
+          "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-1098336821710456~9245613602"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90221104273:android:e50e0f33e0daedfb",
+        "android_client_info": {
+          "package_name": "br.com.douglimar.surpresinha_quina"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90221104273-49l7v8f8tlh8k8r46ci0r2vo1vo723df.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.douglimar.surpresinha_quina",
+            "certificate_hash": "1bb4e389e72ff1f11c084a0b8286031090b18aac"
+          }
+        },
+        {
+          "client_id": "90221104273-1ohfpb8r36299bthp1nlrth7j4aasv5i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.douglimar.surpresinha_quina",
+            "certificate_hash": "7d3ddf6e5d8484e9a3fe7e4888cb3f6b383dc925"
+          }
+        },
+        {
+          "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-1098336821710456~4675813205"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90221104273:android:d8c6637e93ffc20e",
+        "android_client_info": {
+          "package_name": "br.com.douglimar.tabuada"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90221104273-pan5h181qj015gp0h0eege5r3uon2kkh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.douglimar.tabuada",
+            "certificate_hash": "1bb4e389e72ff1f11c084a0b8286031090b18aac"
+          }
+        },
+        {
+          "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-1098336821710456~9812853609"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90221104273:android:db50fcff4c8224ec",
+        "android_client_info": {
+          "package_name": "br.com.screenresolution"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90221104273-1fvq3lg5fd85ndpemluilgrlmivab0dv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.screenresolution",
+            "certificate_hash": "1bb4e389e72ff1f11c084a0b8286031090b18aac"
+          }
+        },
+        {
+          "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-1098336821710456~1861947608"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90221104273:android:ed987958dfb8f7da",
+        "android_client_info": {
+          "package_name": "br.ddmsoftware.proverbiododia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90221104273-eeie35g2nhhn28bgmmfdtic36s6j22bs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.ddmsoftware.proverbiododia",
+            "certificate_hash": "78837b7392fd4b9795fa0f6a54c2c13e3bd0b83d"
+          }
+        },
+        {
+          "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-1098336821710456~7768880404"
+    }
+  ],
+  "configuration_version": "1"
+}

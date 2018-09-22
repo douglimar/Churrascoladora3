@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Churrascoladora - Calculadora de Churrasco</string>
+    <string name="action_settings">Conheça nossos aplicativos</string>
+    <string name="title_activity_result">Resultado do Cálculo</string>
+    <string name="banner_ad_unit_id_TESTE">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1098336821710456/1957646406</string>
+    <string name="share_text">Churrascoladora - A Calculadora do Churrasco</string>
+    <string name="share_hint">Compartilhar com…</string>
+    <string name="share_hint2">Compartilhando</string>
+    <string name="sMessage_Pessoas">Preencha o número de PESSOAS que irão ao seu churrasco</string>
+    <string name="sMessage_Carnes">Selecione pelo menos um tipo de CARNE antes de continuar</string>
+    <string name="sMessage_Bebidas">Selecione pelo menos um tipo de BEBIDA antes de continuar</string>
+    <string name="zero">0</string>
+    <string name="calculadora_do_churrasco">Calculadora do Churrasco</string>
+    <string name="pessoas">PESSOAS</string>
+    <string name="aqui_voc_informar_o_total_de_pessoas_que_participar_do_seu_churrasco">Aqui você informará o total de pessoas que participará do seu churrasco</string>
+    <string name="total_de_homens">Total de Homens</string>
+    <string name="total_de_mulheres">Total de Mulheres</string>
+    <string name="total_de_crian_as">Total de Crianças</string>
+    <string name="carnes">CARNES</string>
+    <string name="escolha_quais_carnes_voc_ter_no_seu_churrasco">Escolha quais carnes você terá no seu churrasco</string>
+    <string name="carne_bovina">Carne Bovina</string>
+    <string name="carne_de_frango">Carne de Frango</string>
+    <string name="lingui_a">Linguiça</string>
+    <string name="carne_su_na_porco">Carne Suína (Porco)</string>
+    <string name="bebidas">BEBIDAS</string>
+    <string name="escolha_quais_bebidas_voc_ter_no_seu_churrasco">Escolha quais bebidas você terá no seu churrasco</string>
+    <string name="refrigerante">Refrigerante</string>
+    <string name="cerveja">Cerveja</string>
+    <string name="gua">Água</string>
+    <string name="vinho_ou_espumante">Vinho (ou Espumante)</string>
+</resources>
