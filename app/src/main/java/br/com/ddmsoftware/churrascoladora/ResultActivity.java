@@ -35,7 +35,7 @@ public class ResultActivity extends AppCompatActivity {
         TextView tv = findViewById(R.id.tvResult);
         tv.setText(message);
 
-        FloatingActionButton fab = findViewById(R.id.fab);
+        FloatingActionButton fab = findViewById(R.id.fabResult);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
