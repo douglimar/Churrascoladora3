@@ -25,6 +25,7 @@ import java.text.DecimalFormat;
 public class MainActivity extends AppCompatActivity {
 
     private FirebaseAnalytics mFirebaseAnalytics;
+    private String sPessoas;
 
     public static final String EXTRA_MESSAGE = "br.com.ddmsoftware.churrascoladora.MESSAGE";
 
@@ -81,8 +82,6 @@ public class MainActivity extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        if (isNetworkAvailable())
-            openGooglePlay();
 
         if (item.getItemId() == android.R.id.home) {
             finish(); // close this activity and return to preview activity (if there is any)
@@ -90,6 +89,8 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            if (isNetworkAvailable())
+                openGooglePlay();
             return true;
         }
 
@@ -423,24 +424,28 @@ public class MainActivity extends AppCompatActivity {
 
 
             Intent intent = new Intent(this, ResultActivity.class);
-            String message = "Sugestão de quantidade de Carnes para seu churrasco:\n";
+
+            String sCarnes;
+
+            sPessoas = ">> Qtde de Homens: " + iqtdHomens  +"\n" +
+                    ">> Qtde de Mulheres: " + iqtdMulheres + "\n"+
+                    ">> Qtde de Crianças: " + iqtdCriancas;
+
 
             if (bKilo) {
 
-                message = message +
-                        "\n>> Carne Bovina.....: " + df2.format(fMediaCarneBovina) + " Kg" +
-                        "\n>> Carne Suina.......: " + df2.format(fMediaCarneSuina) + " Kg" +
-                        "\n>> Carne Frango.....: " + df2.format(fMediaFrango) + " Kg" +
-                        "\n>> Linguica.............: " + df2.format(fMediaLinguica) + " Kg";
+                sCarnes = ">> Carne Bovina.....: " + df2.format(fMediaCarneBovina) + " Kg" +
+                          "\n>> Carne Suina.......: " + df2.format(fMediaCarneSuina) + " Kg" +
+                          "\n>> Carne Frango.....: " + df2.format(fMediaFrango) + " Kg" +
+                          "\n>> Linguica.............: " + df2.format(fMediaLinguica) + " Kg";
 
                 //Toast.makeText(this, message , Toast.LENGTH_LONG).show();
 
             } else {
-                message = message +
-                        "\n>> Carne Bovina.....: " + df.format(fMediaCarneBovina) + " Gramas" +
-                        "\n>> Carne Suina.......: " + df.format(fMediaCarneSuina) + " Gramas" +
-                        "\n>> Carne Frango.....: " + df.format(fMediaFrango) + " Gramas" +
-                        "\n>> Linguica.............: " + df.format(fMediaLinguica) + " Gramas";
+                sCarnes = ">> Carne Bovina.....: " + df.format(fMediaCarneBovina) + " Gramas" +
+                          "\n>> Carne Suina.......: " + df.format(fMediaCarneSuina) + " Gramas" +
+                          "\n>> Carne Frango.....: " + df.format(fMediaFrango) + " Gramas" +
+                          "\n>> Linguica.............: " + df.format(fMediaLinguica) + " Gramas";
 
                 //Toast.makeText(this, message, Toast.LENGTH_LONG).show();
             }
@@ -480,19 +485,23 @@ public class MainActivity extends AppCompatActivity {
 
             //***************************************
 
-            String sBebidas =
-                    "\n\n>> Água .................................: " + iTotalAgua + " litro(s)" +
-                            "\n>> Cerveja .............................: " + iTotalCerveja + " litro(s)" +
-                            "\n>> Refrigerante .....................: " + iTotalRefri + " litro(s)" +
-                            "\n>> Vinho (ou espumante) ....: " + iTotalVinho + " litro(s)";
+            String sBebidas = ">> Água .................................: " + iTotalAgua + " litro(s)" +
+                              "\n>> Cerveja .............................: " + iTotalCerveja + " litro(s)" +
+                              "\n>> Refrigerante .....................: " + iTotalRefri + " litro(s)" +
+                              "\n>> Vinho (ou espumante) ....: " + iTotalVinho + " litro(s)";
 
 
-            message = message + sBebidas + "\n\nSugestões de Acompanhamentos: " +
-                    "Arroz, Salada Verde, Farofa, Maionese, Pão, Pão de Alho, entre outros ao seu gosto.";
+            sBebidas += "\n\nSugestões de Acompanhamentos: " +
+                    "Arroz, Salada Verde, Farofa, Maionese, Pão, Pão de Alho, entre outros ao seu gosto.\n\n\n";
 
             //Toast.makeText(this, message, Toast.LENGTH_LONG).show();
 
-            intent.putExtra(EXTRA_MESSAGE, message);
+            String sFullMessage = sPessoas + "\n\n" +  sCarnes + "\n\n" + sBebidas;
+
+            intent.putExtra("PESSOAS", sPessoas);
+            intent.putExtra("CARNES", sCarnes);
+            intent.putExtra("BEBIDAS", sBebidas);
+            intent.putExtra("FULLMESSAGE", sFullMessage);
             startActivity(intent);
 
         }

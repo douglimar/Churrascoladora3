@@ -29,4 +29,5 @@
     <string name="cerveja">Cerveja</string>
     <string name="gua">Água</string>
     <string name="vinho_ou_espumante">Vinho (ou Espumante)</string>
+    <string name="sugestao_titulo">Sugestão de quantidade de Carnes para seu churrasco:</string>
 </resources>

@@ -16,6 +16,10 @@ import com.google.android.gms.ads.AdView;
 public class ResultActivity extends AppCompatActivity {
 
     private String message;
+    private String sPessoas;
+    private String sCarnes;
+    private String sBebidas;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,10 +34,20 @@ public class ResultActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
 
-        message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+        sCarnes  = intent.getStringExtra("CARNES");
+        sBebidas = intent.getStringExtra("BEBIDAS");
+        sPessoas = intent.getStringExtra("PESSOAS");
+        message = intent.getStringExtra("FULLMESSAGE");
 
-        TextView tv = findViewById(R.id.tvResult);
-        tv.setText(message);
+        TextView tvPessoas = findViewById(R.id.tvResultPessoas);
+        tvPessoas.setText(sPessoas);
+
+        TextView tvCarnes = findViewById(R.id.tvResultCarnes);
+        tvCarnes.setText(sCarnes);
+
+        TextView tvBebidas = findViewById(R.id.tvResultBebidas);
+        tvBebidas.setText(sBebidas);
+
 
         FloatingActionButton fab = findViewById(R.id.fabResult);
         fab.setOnClickListener(new View.OnClickListener() {
